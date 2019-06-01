@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+header{
+    background-image: url(../img/Banner.jpg);
+    height: 600px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+}
+header::after{
+    content: "";
+    background-color: #0000008a;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.top-header{
+    z-index: 2 !important;
+    position: relative;
+}
+.logo img{
+    width: 120px;
+}
+.logo{}
+.menu{}
+.menu ul{}
+.menu ul li{
+    transition: all 0.8s ease;
+}
+.menu ul li a{
+    font-weight: 600;
+}
+.take-action{
+    border: 2px solid #fff;
+    border-radius: 35px;
+    padding: 0px 15px;
+}
+.take-action:hover{
+    background-color: #FB2056;
+    border: 2px solid #FB2056;
+}
+.hover a{
+    transition: all 0.8s ease;
+    opacity: 0px;
+}
+.hover a:hover{
+    border-bottom: 3px solid #FB2056;
+    width: 100%;
+    border: center;
+    color: #FB2056 !important;
+    padding: 3px;
+
+}
+
+.banner{
+    text-align: center;
+    padding-top: 150px;
+    position: absolute;
+    z-index: 2 !important;
+    color: #fff;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+}
+.content{
+    position: relative;
+}
+.banner .content h4{
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+}
+.banner .content hr{
+    position: relative;
+    background: #FB2056;
+    top: -5px;
+    left: 0;
+    width: 20%;
+    padding: .5px;
+}
+.content2{}
+.banner .content2 h1{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+}
+.banner .content2 button{
+    margin: 20px 0 0 0;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 0.8s ease;
+}
+.banner .content2 button:hover{
+    background-color: #FB2056;
+    border: 2px solid #FB2056;
+}
+.tastimonial{}
+.tastimonial span{}
+.tastimonial p{}
